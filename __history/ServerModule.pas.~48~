@@ -1,0 +1,79 @@
+unit ServerModule;
+
+interface
+
+uses
+  Classes, SysUtils, uniGUIServer, uniGUIMainModule, uniGUIApplication, uIdCustomHTTPServer,
+  uniGUITypes, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
+  ZAbstractConnection, ZConnection;
+
+type
+  TUniServerModule = class(TUniGUIServerModule)
+    DBConnection: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
+    RoleQuery: TZQuery;
+    RoleQueryid: TZIntegerField;
+    RoleQuerycode: TZUnicodeStringField;
+    RoleQueryname: TZUnicodeStringField;
+    RoleQuerycreated_at: TZDateTimeField;
+    RoleQueryupdated_at: TZDateTimeField;
+    DataSource2: TDataSource;
+    ZQuery2: TZQuery;
+    ZQuery1id: TIntegerField;
+    ZQuery1username: TZUnicodeStringField;
+    ZQuery1password: TZUnicodeStringField;
+    ZQuery1role_id: TZUnicodeStringField;
+    ZQuery1created_at: TZDateTimeField;
+    ZQuery1updated_at: TZDateTimeField;
+    DataSource3: TDataSource;
+    ZQuery1name: TStringField;
+    procedure UniServerModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  protected
+    procedure FirstInit; override;
+  public
+    { Public declarations }
+  end;
+
+function UniServerModule: TUniServerModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars;
+
+function UniServerModule: TUniServerModule;
+begin
+  Result := TUniServerModule(UniGUIServerInstance);
+end;
+
+procedure TUniServerModule.FirstInit;
+begin
+  InitServerModule(Self);
+end;
+
+procedure TUniServerModule.UniServerModuleCreate(Sender: TObject);
+begin
+  if not DBConnection.Connected then
+  begin
+    DBConnection.Connect;
+  end;
+
+  ZQuery1.SQL.Clear;
+  ZQuery1.Connection := DBConnection;
+  ZQuery1.SQL.Text := 'SELECT u.*, r.name FROM tx_user u JOIN tm_role r ON r.id = u.role_id';
+  ZQuery1.Open;
+
+  ZQuery2.SQL.Clear;
+  ZQuery2.Connection := DBConnection;
+  ZQuery2.SQL.Text := 'SELECT * FROM tm_employee';
+  ZQuery2.Open;
+end;
+
+initialization
+  RegisterServerModuleClass(TUniServerModule);
+end.

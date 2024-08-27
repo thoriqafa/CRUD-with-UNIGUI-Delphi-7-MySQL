@@ -1,0 +1,85 @@
+unit FrmLogin;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIRegClasses, uniGUIForm, uniButton, uniLabel,
+  uniGUIBaseClasses, uniEdit, IdHashSHA1, IdHash, DB, ZAbstractRODataset,
+  ZAbstractDataset, ZDataset;
+type
+  TUniLoginForm2 = class(TUniLoginForm)
+    TxtUsername: TUniEdit;
+    TxtPassword: TUniEdit;
+    UniLabel1: TUniLabel;
+    UniLabel2: TUniLabel;
+    BtnLogin: TUniButton;
+    UniLabel3: TUniLabel;
+    ZQuery1: TZQuery;
+    procedure BtnLoginClick(Sender: TObject);
+  private
+  public
+    cUsername:string;
+  end;
+
+function UniLoginForm2: TUniLoginForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  uniGUIVars, MainModule, uniGUIApplication, ServerModule, Main;
+
+function UniLoginForm2: TUniLoginForm2;
+begin
+  Result := TUniLoginForm2(UniMainModule.GetFormInstance(TUniLoginForm2));
+end;
+
+procedure TUniLoginForm2.BtnLoginClick(Sender: TObject);
+var
+  Username, Password, HashedPassword: string;
+  StoredHashedPassword: string;
+  ZQuery: TZQuery;
+begin
+  Username := TxtUsername.Text;
+  Password := TxtPassword.Text;
+
+  HashedPassword := LowerCase(TIdHashSHA1.Create.HashStringAsHex(Password));
+
+  ZQuery := TZQuery.Create(nil);
+  try
+    ZQuery.Connection := UniServerModule.DBConnection;
+    ZQuery.SQL.Text := 'Select password FROM tx_user WHERE username = :Username';
+    ZQuery.Params.ParamByName('Username').AsString := Username;
+    ZQuery.Open;
+    if not ZQuery.EOF then
+    begin
+      StoredHashedPassword := LowerCase(ZQuery.FieldByName('Password').AsString);
+
+      // Cek apakah hashed password yang diinput sesuai dengan yang tersimpan
+      if HashedPassword = StoredHashedPassword then
+      begin
+        ShowMessage('Login berhasil!');
+        // Arahkan ke halaman selanjutnya atau form utama
+      end
+      else
+      begin
+        ShowMessage('Password salah! Hashed Password Input: ' + HashedPassword + 'Stored Hashed Password: ' + StoredHashedPassword);
+      end;
+    end
+    else
+    begin
+      ShowMessage('Username tidak ditemukan!');
+    end;
+
+  finally
+    ZQuery.Free;
+  end;
+end;
+
+initialization
+  RegisterAppFormClass(TUniLoginForm2);
+
+end.

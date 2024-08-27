@@ -1,0 +1,148 @@
+unit FrmEmp;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniMultiItem, uniComboBox, uniEdit,
+  uniGUIBaseClasses, uniButton;
+
+type
+  TUniForm2 = class(TUniForm)
+    BtnSave: TUniButton;
+    TxtUsername: TUniEdit;
+    TxtPassword: TUniEdit;
+    BtnExport: TUniButton;
+    CBRole: TUniComboBox;
+    TxtNama: TUniEdit;
+    procedure BtnSaveClick(Sender: TObject);
+    procedure UniFormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniForm2: TUniForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, ServerModule;
+
+function UniForm2: TUniForm2;
+begin
+  Result := TUniForm2(UniMainModule.GetFormInstance(TUniForm2));
+procedure TUniForm2.UniFormCreate(Sender: TObject);
+begin
+  UniServerModule.EmployeeQuery.SQL.Clear;
+  UniServerModule.EmployeeQuery.SQL.Text := 'SELECT id, user_id, name, created_at, updated_at FROM tm_employee';
+  UniServerModule.EmployeeQuery.Open;
+
+  // Load roles into the combo box
+  UniServerModule.RoleQuery.Open;
+  CBRole.Clear; // Clear existing items
+
+  UniServerModule.RoleQuery.Active := True;
+  while not UniServerModule.RoleQuery.Eof do
+  begin
+    CBRole.Items.AddObject(UniServerModule.RoleQuery.FieldByName('name').AsString,
+                           TObject(UniServerModule.RoleQuery.FieldByName('id').AsInteger));
+    UniServerModule.RoleQuery.Next;
+  end;
+
+  UniServerModule.UserQuery.SQL.Clear;
+  UniServerModule.UserQuery.SQL.Text := 'select u.*, e.name, r.id, r.name as role_name from tx_user u '
+                                    + 'join tm_role r ON r.id = u.role_id '
+                                    + 'join tm_employee e ON e.user_id = u.id;';
+  UniServerModule.UserQuery.Open;
+end;
+
+end;
+
+procedure TUniForm2.BtnSaveClick(Sender: TObject);
+begin
+var
+  SelectedID: Integer;
+  NewID: Integer;
+begin
+  UniServerModule.UserQuery.SQL.Clear;
+  UniServerModule.EmployeeQuery.SQL.Clear;
+
+  SelectedID := Integer(CBRole.Items.Objects[CBRole.ItemIndex]);
+
+  if VarIsNull(EmpId) or (EmpId = 0) then
+  begin
+    // Menyisipkan data ke tx_user
+    with UniServerModule.UserQuery do
+    begin
+      SQL.Clear;
+      SQL.Add('INSERT INTO tx_user (username, password, role_id, created_at) ' +
+            'VALUES (:username, :password, :role_id, :created_at);');
+      parameters.ParamByName('username').Value := TxtUsername.Text;
+      parameters.ParamByName('password').Value := TxtPassword.Text;
+      parameters.ParamByName('role_id').Value := SelectedID;
+      parameters.ParamByName('created_at').Value := Now;
+      try
+        ExecSQL;
+      except
+        on E: Exception do
+        begin
+          // Tangani kesalahan jika perlu
+          Exit;
+        end;
+      end;
+    end;
+
+    // Mendapatkan ID yang baru saja diinsert
+    UniServerModule.UserQuery.SQL.Clear;
+    UniServerModule.UserQuery.SQL.Add('SELECT LAST_INSERT_ID() AS NewID;');
+    UniServerModule.UserQuery.Open;
+    NewID := UniServerModule.UserQuery.FieldByName('NewID').AsInteger;
+
+    // Menyisipkan data ke tm_employee
+    UniServerModule.UserQuery.SQL.Clear;
+    UniServerModule.UserQuery.SQL.Add(
+      'INSERT INTO tm_employee (user_id, name, created_at) ' +
+      'VALUES (:user_id, :name, :created_at)');
+    UniServerModule.UserQuery.parameters.ParamByName('user_id').Value := NewID;
+    UniServerModule.UserQuery.parameters.ParamByName('name').Value := TxtNama.Text;
+    UniServerModule.UserQuery.parameters.ParamByName('created_at').Value := Now;
+    UniServerModule.UserQuery.ExecSQL;
+
+    ShowMessage('Data berhasil disimpan');
+  end
+  else
+  begin
+    UniServerModule.UserQuery.SQL.Clear;
+    UniServerModule.UserQuery.SQL.Add(
+                                    'UPDATE tx_user SET username = :username, '
+                                  + 'role_id = :role_id, updated_at = :updated_at '
+                                  + 'WHERE id = :EmpId;');
+    UniServerModule.UserQuery.parameters.ParamByName('username').Value := TxtUsername.Text;
+    UniServerModule.UserQuery.parameters.ParamByName('role_id').Value := SelectedID;
+    UniServerModule.UserQuery.parameters.ParamByName('updated_at').Value := Now;
+    UniServerModule.UserQuery.Parameters.ParamByName('EmpId').Value := EmpId;
+    UniServerModule.UserQuery.ExecSQL;
+
+    // Mengupdate data di tm_employee
+    UniServerModule.UserQuery.SQL.Clear;
+    UniServerModule.UserQuery.SQL.Add(
+      'UPDATE tm_employee SET name = :name, updated_at = :updated_at ' +
+      'WHERE user_id = :EmpId;');
+    UniServerModule.UserQuery.parameters.ParamByName('name').Value := TxtNama.Text;
+    UniServerModule.UserQuery.parameters.ParamByName('updated_at').Value := Now;
+    UniServerModule.UserQuery.parameters.ParamByName('EmpId').Value := EmpId;
+    UniServerModule.UserQuery.ExecSQL;
+
+    ShowMessage('Data berhasil diupdate');
+  end;
+
+  // Refresh form atau melakukan tindakan lain setelah menyimpan
+  UniForm1Create(Sender);
+end;
+
+end.

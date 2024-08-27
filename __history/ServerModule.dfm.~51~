@@ -1,0 +1,125 @@
+object UniServerModule: TUniServerModule
+  OldCreateOrder = False
+  TempFolder = 'temp\'
+  Title = 'New Application'
+  SuppressErrors = []
+  Bindings = <>
+  SSL.SSLOptions.RootCertFile = 'root.pem'
+  SSL.SSLOptions.CertFile = 'cert.pem'
+  SSL.SSLOptions.KeyFile = 'key.pem'
+  SSL.SSLOptions.Method = sslvSSLv23
+  SSL.SSLOptions.SSLVersions = [sslvTLSv1_1, sslvTLSv1_2]
+  SSL.SSLOptions.Mode = sslmUnassigned
+  SSL.SSLOptions.VerifyMode = []
+  SSL.SSLOptions.VerifyDepth = 0
+  ConnectionFailureRecovery.ErrorMessage = 'Connection Error'
+  ConnectionFailureRecovery.RetryMessage = 'Retrying...'
+  Height = 297
+  Width = 293
+  object DBConnection: TZConnection
+    ControlsCodePage = cCP_UTF16
+    Properties.Strings = (
+      'RawStringEncoding=DB_CP')
+    Connected = True
+    DisableSavepoints = False
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'self_schema'
+    User = 'root'
+    Protocol = 'mysql'
+    Left = 80
+    Top = 112
+  end
+  object ZQuery1: TZQuery
+    Connection = DBConnection
+    Active = True
+    SQL.Strings = (
+      
+        'select u.*, r.name from tx_user u join tm_role r ON r.id = u.rol' +
+        'e_id;')
+    Params = <>
+    Left = 112
+    Top = 152
+    object ZQuery1id: TIntegerField
+      FieldKind = fkCalculated
+      FieldName = 'id'
+      Calculated = True
+    end
+    object ZQuery1username: TZUnicodeStringField
+      FieldName = 'username'
+      Required = True
+      Size = 50
+    end
+    object ZQuery1password: TZUnicodeStringField
+      FieldName = 'password'
+      Required = True
+      Size = 64
+    end
+    object ZQuery1role_id: TZUnicodeStringField
+      FieldName = 'role_id'
+      Size = 45
+    end
+    object ZQuery1created_at: TZDateTimeField
+      FieldName = 'created_at'
+    end
+    object ZQuery1updated_at: TZDateTimeField
+      FieldName = 'updated_at'
+    end
+    object ZQuery1name: TZUnicodeStringField
+      FieldName = 'name'
+      Size = 45
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = ZQuery2
+    Left = 40
+    Top = 192
+  end
+  object RoleQuery: TZQuery
+    Connection = DBConnection
+    Active = True
+    SQL.Strings = (
+      'SELECT * FROM tm_role WHERE is_delete = 0;')
+    Params = <>
+    Left = 112
+    Top = 256
+    object RoleQueryid: TZIntegerField
+      FieldName = 'id'
+      Required = True
+    end
+    object RoleQuerycode: TZUnicodeStringField
+      FieldName = 'code'
+      Required = True
+      Size = 45
+    end
+    object RoleQueryname: TZUnicodeStringField
+      FieldName = 'name'
+      Size = 45
+    end
+    object RoleQuerycreated_at: TZDateTimeField
+      FieldName = 'created_at'
+    end
+    object RoleQueryupdated_at: TZDateTimeField
+      FieldName = 'updated_at'
+    end
+  end
+  object DataSource2: TDataSource
+    DataSet = RoleQuery
+    Left = 40
+    Top = 232
+  end
+  object ZQuery2: TZQuery
+    Connection = DBConnection
+    Active = True
+    SQL.Strings = (
+      'select * from tm_employee where is_delete = 0;')
+    Params = <>
+    Left = 112
+    Top = 200
+  end
+  object DataSource3: TDataSource
+    DataSet = ZQuery1
+    Left = 40
+    Top = 152
+  end
+end

@@ -1,0 +1,9 @@
+Project1.exe: 00004750: 13:47:37 [127.0.0.1]:Failed Sequence Recovery: SeqId: 21, Event: click
+Project1.exe: 00005140: 13:47:37 [127.0.0.1]:Failed Sequence Recovery: SeqId: 20, Event: blurchange
+Project1.exe: 00004750: 13:47:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 21
+Project1.exe: 00004750: 13:47:41 [127.0.0.1]:Processed: Id: 21, Evt: click, [S6LPzJbGKh10F4CC7A9]
+Project1.exe: 00005140: 13:47:41 [127.0.0.1]:Sequence sent from cache:  SeqId: 20
+Project1.exe: 00005140: 13:47:41 [127.0.0.1]:Processed: Id: 20, Evt: blurchange, [S6LPzJbGKh10F4CC7A9]
+Project1.exe: 00002540: 13:48:03 [127.0.0.1]:Failed Sequence Recovery: SeqId: 22, Event: click
+Project1.exe: 00002540: 13:48:03 [127.0.0.1]:Sequence sent from cache:  SeqId: 22
+Project1.exe: 00002540: 13:48:03 [127.0.0.1]:Processed: Id: 22, Evt: click, [S6LPzJbGKh10F4CC7A9]

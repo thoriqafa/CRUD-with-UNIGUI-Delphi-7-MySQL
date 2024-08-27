@@ -1,0 +1,6 @@
+Project1.exe: 000057BC: 11:35:53 [127.0.0.1]:Failed Sequence Recovery: SeqId: 12, Event: click
+Project1.exe: 000057BC: 11:35:53 [127.0.0.1]:Sequence sent from cache:  SeqId: 12
+Project1.exe: 000057BC: 11:35:53 [127.0.0.1]:Processed: Id: 12, Evt: click, [cbwbiejX8910F4FB148]
+Project1.exe: 00000D34: 11:35:54 [127.0.0.1]:Failed Sequence Recovery: SeqId: 13, Event: resize
+Project1.exe: 00000D34: 11:35:54 [127.0.0.1]:Sequence sent from cache:  SeqId: 13
+Project1.exe: 00000D34: 11:35:54 [127.0.0.1]:Processed: Id: 13, Evt: resize, [cbwbiejX8910F4FB148]

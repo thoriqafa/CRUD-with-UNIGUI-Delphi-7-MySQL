@@ -1,0 +1,65 @@
+unit FrmEmp;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics,
+  Controls, Forms, uniGUITypes, uniGUIAbstractClasses,
+  uniGUIClasses, uniGUIForm, uniMultiItem, uniComboBox, uniEdit,
+  uniGUIBaseClasses, uniButton;
+
+type
+  TUniForm2 = class(TUniForm)
+    BtnSave: TUniButton;
+    TxtUsername: TUniEdit;
+    TxtPassword: TUniEdit;
+    BtnExport: TUniButton;
+    CBRole: TUniComboBox;
+    TxtNama: TUniEdit;
+    procedure UniFormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+function UniForm2: TUniForm2;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  MainModule, uniGUIApplication, ServerModule;
+
+function UniForm2: TUniForm2;
+begin
+  Result := TUniForm2(UniMainModule.GetFormInstance(TUniForm2));
+end;
+
+procedure TUniForm2.UniFormCreate(Sender: TObject);
+begin
+  UniServerModule.EmployeeQuery.SQL.Clear;
+  UniServerModule.EmployeeQuery.SQL.Text := 'SELECT id, user_id, name, created_at, updated_at FROM tm_employee';
+  UniServerModule.EmployeeQuery.Open;
+
+  // Load roles into the combo box
+  UniServerModule.RoleQuery.Open;
+  CBRole.Clear; // Clear existing items
+
+  UniServerModule.RoleQuery.Active := True;
+  while not UniServerModule.RoleQuery.Eof do
+  begin
+    CBRole.Items.AddObject(UniServerModule.RoleQuery.FieldByName('name').AsString,
+                           TObject(UniServerModule.RoleQuery.FieldByName('id').AsInteger));
+    UniServerModule.RoleQuery.Next;
+  end;
+
+  UniServerModule.UserQuery.SQL.Clear;
+  UniServerModule.UserQuery.SQL.Text := 'select u.*, e.name, r.id, r.name as role_name from tx_user u '
+                                    + 'join tm_role r ON r.id = u.role_id '
+                                    + 'join tm_employee e ON e.user_id = u.id;';
+  UniServerModule.UserQuery.Open;
+end;
+
+end.

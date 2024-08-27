@@ -1,0 +1,1801 @@
+Project1.exe: 00000D3C: 09:09:54 []:>--------------------------------------------------------------<
+Project1.exe: 00000D3C: 09:09:54 [TUniServerModule]:Server First Init.
+Project1.exe: 00000D3C: 09:09:54 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00000D3C: 09:09:54 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00000D3C: 09:09:54 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00000D3C: 09:09:55 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00000D3C: 09:09:55 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00001168: 09:10:48 []:>--------------------------------------------------------------<
+Project1.exe: 00001168: 09:10:48 [TUniServerModule]:Server First Init.
+Project1.exe: 00001168: 09:10:48 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00001168: 09:10:48 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00001168: 09:10:49 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00001168: 09:10:49 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002BAC: 09:10:54 [127.0.0.1]:
+Project1.exe: 00000848: 09:10:55 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=0
+_uo_=O0
+
+Project1.exe: 0000226C: 09:10:55 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00003DF8: 09:10:56 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00003434: 09:10:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00000A98: 09:10:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=4ibHljkOLF10F5BBF32
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00004B18: 09:10:59 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 000014F4: 09:10:59 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 000028A0: 09:10:59 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 000044F4: 09:11:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000111C: 09:11:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 000048AC: 09:11:01 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 000004F8: 09:11:01 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 000036E4: 09:11:01 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=4ibHljkOLF10F5BBF32
+_seq_=c
+_uo_=O31
+
+Project1.exe: 000022B8: 09:14:09 []:>--------------------------------------------------------------<
+Project1.exe: 000022B8: 09:14:09 [TUniServerModule]:Server First Init.
+Project1.exe: 000022B8: 09:14:09 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 000022B8: 09:14:09 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000022B8: 09:14:09 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 000022B8: 09:14:10 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000022B8: 09:14:10 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00003604: 09:14:20 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4ibHljkOLF10F5BBF32 ) : Addr: $005D6A0D
+Project1.exe: 00004814: 09:14:21 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: 4ibHljkOLF10F5BBF32 ) : Addr: $005D6A0D
+Project1.exe: 00002070: 09:14:22 [127.0.0.1]:
+Project1.exe: 00003E3C: 09:14:22 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=zDQyOw87k810F5BC022
+_seq_=0
+_uo_=O0
+
+Project1.exe: 00003F2C: 09:14:23 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=zDQyOw87k810F5BC022
+_seq_=1
+_uo_=O0
+
+Project1.exe: 000017DC: 09:14:24 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=zDQyOw87k810F5BC022
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00003224: 09:14:24 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=zDQyOw87k810F5BC022
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00001E2C: 09:14:25 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=zDQyOw87k810F5BC022
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 0000161C: 09:14:25 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=zDQyOw87k810F5BC022
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00003974: 09:14:27 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=zDQyOw87k810F5BC022
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002860: 09:14:27 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=zDQyOw87k810F5BC022
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002034: 09:14:27 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=zDQyOw87k810F5BC022
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001134: 09:14:28 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=zDQyOw87k810F5BC022
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001900: 09:14:28 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=zDQyOw87k810F5BC022
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001BD4: 09:14:29 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=zDQyOw87k810F5BC022
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000141C: 09:14:29 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=zDQyOw87k810F5BC022
+_seq_=c
+_uo_=O31
+
+Project1.exe: 0000141C: 09:14:41 [ZQuery1: Field 'name' not found-127.0.0.1]:EDatabaseError : ZQuery1: Field 'name' not found : Addr: $0052D1CA
+Project1.exe: 000032C0: 09:14:42 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=zDQyOw87k810F5BC022
+_seq_=d
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003F34: 09:15:26 []:>--------------------------------------------------------------<
+Project1.exe: 00003F34: 09:15:26 [TUniServerModule]:Server First Init.
+Project1.exe: 00003F34: 09:15:26 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00003F34: 09:15:26 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00003F34: 09:15:26 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00003F34: 09:15:27 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00003F34: 09:15:27 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002BD4: 09:15:32 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zDQyOw87k810F5BC022 ) : Addr: $007EC655
+Project1.exe: 00000828: 09:15:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zDQyOw87k810F5BC022 ) : Addr: $007EC655
+Project1.exe: 00004A48: 09:15:33 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zDQyOw87k810F5BC022 ) : Addr: $007EC655
+Project1.exe: 0000033C: 09:15:34 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: zDQyOw87k810F5BC022 ) : Addr: $007EC655
+Project1.exe: 00002290: 09:15:34 [127.0.0.1]:
+Project1.exe: 000023BC: 09:15:35 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000041E4: 09:15:36 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=1
+_uo_=O0
+
+Project1.exe: 000027E8: 09:15:36 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00003D80: 09:15:36 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00003F6C: 09:15:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=UXBTHSxs5910F5BC074
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 000042F8: 09:15:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00004A54: 09:15:43 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 000040BC: 09:15:43 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003188: 09:15:43 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000363C: 09:15:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001894: 09:15:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 000012C8: 09:15:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 000030CC: 09:15:45 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=UXBTHSxs5910F5BC074
+_seq_=c
+_uo_=O31
+
+Project1.exe: 0000167C: 09:26:42 []:>--------------------------------------------------------------<
+Project1.exe: 0000167C: 09:26:42 [TUniServerModule]:Server First Init.
+Project1.exe: 0000167C: 09:26:42 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 0000167C: 09:26:42 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000167C: 09:26:42 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 0000167C: 09:26:42 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 0000167C: 09:26:42 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00000994: 09:26:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: UXBTHSxs5910F5BC074 ) : Addr: $005D6A0D
+Project1.exe: 00002990: 09:26:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: UXBTHSxs5910F5BC074 ) : Addr: $005D6A0D
+Project1.exe: 00002BEC: 09:26:50 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: UXBTHSxs5910F5BC074 ) : Addr: $005D6A0D
+Project1.exe: 00004680: 09:26:51 [127.0.0.1]:
+Project1.exe: 000021D4: 09:26:53 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=hFSmFddI8210F5BC384
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000023A8: 09:26:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=hFSmFddI8210F5BC384
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00003354: 09:26:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=hFSmFddI8210F5BC384
+_seq_=2
+_uo_=O0
+
+Project1.exe: 000047E8: 09:26:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=hFSmFddI8210F5BC384
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00000D1C: 09:26:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=hFSmFddI8210F5BC384
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00004108: 09:26:56 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=hFSmFddI8210F5BC384
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00002E58: 09:26:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=hFSmFddI8210F5BC384
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002138: 09:26:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=hFSmFddI8210F5BC384
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002F40: 09:26:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=hFSmFddI8210F5BC384
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 000017BC: 09:26:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=hFSmFddI8210F5BC384
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000313C: 09:26:58 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=hFSmFddI8210F5BC384
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003BFC: 09:26:58 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=hFSmFddI8210F5BC384
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003398: 09:26:59 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=hFSmFddI8210F5BC384
+_seq_=c
+_uo_=O31
+
+Project1.exe: 00003398: 09:27:06 [ZQuery1: Field 'name' not found-127.0.0.1]:EDatabaseError : ZQuery1: Field 'name' not found : Addr: $0052D1CA
+Project1.exe: 000024CC: 09:27:06 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=hFSmFddI8210F5BC384
+_seq_=d
+_a_=1
+_uo_=O31
+
+Project1.exe: 000045FC: 09:27:08 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=move
+this=O6B
+x=861
+y=368
+_S_ID=hFSmFddI8210F5BC384
+_seq_=e
+_a_=1
+_uo_=O6B
+
+Project1.exe: 000049D0: 09:27:08 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=resize
+this=O6B
+w=837
+h=488
+_S_ID=hFSmFddI8210F5BC384
+_seq_=f
+_a_=1
+_uo_=O6B
+
+Project1.exe: 000018A0: 09:27:08 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=deactivate
+this=O31
+_S_ID=hFSmFddI8210F5BC384
+_seq_=10
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002DD8: 09:27:10 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=activate
+this=O6B
+_S_ID=hFSmFddI8210F5BC384
+_seq_=11
+_a_=1
+_uo_=O6B
+
+Project1.exe: 000016A0: 09:33:32 []:>--------------------------------------------------------------<
+Project1.exe: 000016A0: 09:33:32 [TUniServerModule]:Server First Init.
+Project1.exe: 000016A0: 09:33:32 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 000016A0: 09:33:32 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000016A0: 09:33:32 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 000016A0: 09:33:33 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000016A0: 09:33:33 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00002988: 09:33:54 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: hFSmFddI8210F5BC384 ) : Addr: $005D6A0D
+Project1.exe: 000043CC: 09:33:54 [127.0.0.1]:
+Project1.exe: 00002B30: 09:33:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000048CC: 09:33:56 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=1
+_uo_=O0
+
+Project1.exe: 000046DC: 09:33:56 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00000CD8: 09:33:56 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=3
+_uo_=O0
+
+Project1.exe: 0000247C: 09:33:57 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=tet9pxkBXF10F5BC56E
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 0000086C: 09:33:59 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00004BE4: 09:34:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00000A04: 09:34:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00000A08: 09:34:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 000027D0: 09:34:00 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 00004980: 09:34:02 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 000008BC: 09:34:02 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 000046A0: 09:34:02 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=tet9pxkBXF10F5BC56E
+_seq_=c
+_uo_=O31
+
+Project1.exe: 00002E24: 09:48:38 []:>--------------------------------------------------------------<
+Project1.exe: 00002E24: 09:48:38 [TUniServerModule]:Server First Init.
+Project1.exe: 00002E24: 09:48:38 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00002E24: 09:48:38 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00002E24: 09:48:38 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00002E24: 09:48:39 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00002E24: 09:48:39 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 000045FC: 09:49:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tet9pxkBXF10F5BC56E ) : Addr: $005D6A0D
+Project1.exe: 000046C0: 09:49:42 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tet9pxkBXF10F5BC56E ) : Addr: $005D6A0D
+Project1.exe: 00000168: 09:49:43 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: tet9pxkBXF10F5BC56E ) : Addr: $005D6A0D
+Project1.exe: 00002834: 09:49:43 [127.0.0.1]:
+Project1.exe: 00002F7C: 09:49:46 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000048E8: 09:49:46 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00003D50: 09:49:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00004A68: 09:49:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=3
+_uo_=O0
+
+Project1.exe: 0000227C: 09:49:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=SHsm9qdraY10F5BC9B8
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00002DF4: 09:49:49 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=SHsm9qdraY10F5BC9B8
+_fp_=%26O13%3D%25021%2502%2502admin%26O17%3D%25021%2502%2502mypassword
+_seq_=5
+_uo_=O0
+
+Project1.exe: 000025BC: 09:49:49 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=SHsm9qdraY10F5BC9B8
+_fp_=%26O13%3D%25022%2502%2502admin%26O17%3D%25022%2502%2502mypassword
+_seq_=6
+_a_=1
+_uo_=O0
+
+Project1.exe: 00003E68: 09:49:49 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003B94: 09:49:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001A50: 09:49:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003364: 09:49:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001FF0: 09:49:52 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 00004270: 09:49:52 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=c
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002C70: 09:49:53 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=deactivate
+this=O31
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=d
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003B80: 09:49:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=e
+_a_=1
+_uo_=O31
+
+Project1.exe: 000033E8: 09:49:54 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=f
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003158: 09:49:58 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=SHsm9qdraY10F5BC9B8
+_seq_=10
+_uo_=O31
+
+Project1.exe: 0000386C: 09:55:44 []:>--------------------------------------------------------------<
+Project1.exe: 0000386C: 09:55:44 [TUniServerModule]:Server First Init.
+Project1.exe: 0000386C: 09:55:44 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 0000386C: 09:55:44 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 0000386C: 09:55:44 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 0000386C: 09:55:45 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 0000386C: 09:55:45 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00000648: 09:55:47 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: SHsm9qdraY10F5BC9B8 ) : Addr: $005D6A0D
+Project1.exe: 0000220C: 09:59:44 [127.0.0.1]:
+Project1.exe: 00000574: 09:59:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000023E0: 09:59:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00002CB0: 09:59:45 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00000D38: 09:59:46 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00003C08: 09:59:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=ojXRYysPhe10F5BCC70
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00000B50: 09:59:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 000019A8: 09:59:48 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 000005BC: 09:59:48 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002BBC: 09:59:49 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002DC8: 09:59:49 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 000013FC: 09:59:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003198: 09:59:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 000033FC: 09:59:50 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=c
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001880: 09:59:53 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=ojXRYysPhe10F5BCC70
+_seq_=d
+_uo_=O31
+
+Project1.exe: 00003DAC: 10:03:52 []:>--------------------------------------------------------------<
+Project1.exe: 00003DAC: 10:03:52 [TUniServerModule]:Server First Init.
+Project1.exe: 00003DAC: 10:03:52 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00003DAC: 10:03:52 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00003DAC: 10:03:52 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 00003DAC: 10:03:53 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00003DAC: 10:03:53 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00001CA4: 10:03:59 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: ojXRYysPhe10F5BCC70 ) : Addr: $005D6A0D
+Project1.exe: 00001398: 10:04:07 [127.0.0.1]:
+Project1.exe: 00003004: 10:04:08 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=0
+_uo_=O0
+
+Project1.exe: 00000630: 10:04:10 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00002AEC: 10:04:10 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00002890: 10:04:10 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00002548: 10:04:10 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=kPtmquhX8y10F5BCDA1
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 000043CC: 10:04:12 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00003E9C: 10:04:13 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00000A7C: 10:04:13 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002758: 10:04:14 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 000049B0: 10:04:14 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000460C: 10:04:15 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003E0C: 10:04:15 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 000009F8: 10:04:15 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=kPtmquhX8y10F5BCDA1
+_seq_=c
+_uo_=O31
+
+Project1.exe: 000025DC: 10:05:01 []:>--------------------------------------------------------------<
+Project1.exe: 000025DC: 10:05:01 [TUniServerModule]:Server First Init.
+Project1.exe: 000025DC: 10:05:01 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 000025DC: 10:05:01 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 000025DC: 10:05:01 [TUniGUISessionManager]:Cache erase job created, Folder count: [1]
+Project1.exe: 000025DC: 10:05:02 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 000025DC: 10:05:02 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 000023A8: 10:05:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kPtmquhX8y10F5BCDA1 ) : Addr: $007EC655
+Project1.exe: 000032EC: 10:05:05 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: kPtmquhX8y10F5BCDA1 ) : Addr: $007EC655
+Project1.exe: 000029CC: 10:05:11 [127.0.0.1]:
+Project1.exe: 00001D64: 10:05:11 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=0
+_uo_=O0
+
+Project1.exe: 00002F40: 10:05:12 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00002894: 10:05:13 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=2
+_uo_=O0
+
+Project1.exe: 0000446C: 10:05:13 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=3
+_uo_=O0
+
+Project1.exe: 00002A68: 10:05:14 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=YG7qwzbNup10F5BCDEB
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00004A0C: 10:05:15 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00000114: 10:05:16 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002980: 10:05:16 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 000048F8: 10:05:17 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003440: 10:05:17 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 000042B0: 10:05:17 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 00001604: 10:05:18 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 00003E40: 10:05:18 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=c
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002B84: 10:05:22 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=d
+_uo_=O31
+
+Project1.exe: 00002948: 10:05:22 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=move
+this=O6B
+x=861
+y=368
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=e
+_a_=1
+_uo_=O6B
+
+Project1.exe: 0000303C: 10:05:24 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=resize
+this=O6B
+w=837
+h=488
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=f
+_a_=1
+_uo_=O6B
+
+Project1.exe: 000024E0: 10:05:24 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=deactivate
+this=O31
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=10
+_a_=1
+_uo_=O31
+
+Project1.exe: 00000430: 10:05:24 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=activate
+this=O6B
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=11
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00000B68: 10:05:24 [127.0.0.1]:IsEvent=1
+Obj=O82
+Evt=data
+_dc=1724295922393
+start=0
+limit=25
+options=1
+page=1
+
+Project1.exe: 00002764: 10:05:25 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O82
+Evt=load
+this=O82
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=12
+_a_=1
+_uo_=O6B
+
+Project1.exe: 000047F4: 10:05:39 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O87
+Evt=click
+this=O87
+_S_ID=YG7qwzbNup10F5BCDEB
+_fp_=%26O8B%3D%25020%2502%2502oerh%26O8F%3D%25020%2502%2502wgeewg%26O97%3D%25020%2502%2502manager
+_seq_=13
+_uo_=O6B
+
+Project1.exe: 000018D4: 10:05:40 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=deactivate
+this=O6B
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=14
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00004158: 10:05:41 [127.0.0.1]:IsEvent=1
+Obj=O82
+Evt=data
+_dc=1724295939415
+start=0
+limit=25
+options=1
+page=1
+
+Project1.exe: 00001E10: 10:05:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=activate
+this=O6B
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=15
+_a_=1
+_uo_=O6B
+
+Project1.exe: 0000327C: 10:05:42 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O82
+Evt=load
+this=O82
+_S_ID=YG7qwzbNup10F5BCDEB
+_seq_=16
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00003670: 10:24:19 []:>--------------------------------------------------------------<
+Project1.exe: 00003670: 10:24:19 [TUniServerModule]:Server First Init.
+Project1.exe: 00003670: 10:24:19 [TUniServerModule]:Start Path = D:\aplikasi\selfdev\delphi\
+Project1.exe: 00003670: 10:24:19 [TUniServerModule]:Debug Mode = ON
+Project1.exe: 00003670: 10:24:20 [TUniServerModule]:Starting HTTP Server on Port: 8077...
+Project1.exe: 00003670: 10:24:20 [TUniServerModule]:HTTP Server Started on Port: 8077
+Project1.exe: 00003C7C: 10:24:38 [127.0.0.1]:EUniSessionException : Invalid session or session Timeout. (Session not found: YG7qwzbNup10F5BCDEB ) : Addr: $007EC655
+Project1.exe: 000019E8: 10:24:38 [127.0.0.1]:
+Project1.exe: 00001F60: 10:24:39 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=cinfo
+ci=br%3D33%3Bos%3D4%3Bbv%3D127%3Bww%3D2560%3Bwh%3D1225
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=0
+_uo_=O0
+
+Project1.exe: 000026EC: 10:24:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=move
+this=O0
+x=1021
+y=480
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=1
+_uo_=O0
+
+Project1.exe: 00002BAC: 10:24:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=activate
+this=O0
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=2
+_uo_=O0
+
+Project1.exe: 00003D98: 10:24:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=resize
+this=O0
+w=517
+h=265
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=3
+_uo_=O0
+
+Project1.exe: 000048A8: 10:24:41 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O23
+Evt=click
+this=O23
+_S_ID=pPg6fkhuNr10F5BD332
+_fp_=%26O13%3D%25020%2502%2502admin%26O17%3D%25020%2502%2502mypassword
+_seq_=4
+_uo_=O0
+
+Project1.exe: 00003D94: 10:24:43 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O0
+Evt=deactivate
+this=O0
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=5
+_a_=1
+_uo_=O0
+
+Project1.exe: 00000D44: 10:24:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=832
+y=349
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=6
+_a_=1
+_uo_=O31
+
+Project1.exe: 00004A44: 10:24:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=896
+h=527
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=7
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000040C: 10:24:44 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=resize
+this=O31
+w=2560
+h=1225
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=8
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002F2C: 10:24:45 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=move
+this=O31
+x=0
+y=0
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=9
+_a_=1
+_uo_=O31
+
+Project1.exe: 00004084: 10:24:45 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=maximize
+this=O31
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=a
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000328C: 10:24:46 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=activate
+this=O31
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=b
+_a_=1
+_uo_=O31
+
+Project1.exe: 0000102C: 10:24:46 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O66
+Evt=click
+this=O66
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=c
+_uo_=O31
+
+Project1.exe: 00004780: 10:24:47 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O44
+Evt=resize
+w%3D2560
+h%3D1225
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=d
+_a_=1
+_uo_=O31
+
+Project1.exe: 00002C1C: 10:24:51 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=move
+this=O6B
+x=861
+y=368
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=e
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00000020: 10:24:52 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=resize
+this=O6B
+w=837
+h=488
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=f
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00002E68: 10:24:52 [127.0.0.1]:IsEvent=1
+Obj=O82
+Evt=data
+_dc=1724297088991
+start=0
+limit=25
+options=1
+page=1
+
+Project1.exe: 00002BB8: 10:24:52 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O31
+Evt=deactivate
+this=O31
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=10
+_a_=1
+_uo_=O31
+
+Project1.exe: 000012F4: 10:24:52 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O6B
+Evt=activate
+this=O6B
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=11
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00002680: 10:24:53 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O82
+Evt=load
+this=O82
+_S_ID=pPg6fkhuNr10F5BD332
+_seq_=12
+_a_=1
+_uo_=O6B
+
+Project1.exe: 00000958: 10:25:03 [127.0.0.1]:Ajax=1
+IsEvent=1
+Obj=O87
+Evt=click
+this=O87
+_S_ID=pPg6fkhuNr10F5BD332
+_fp_=%26O8B%3D%25020%2502%2502asdwefew%26O8F%3D%25020%2502%2502wefwe%26O97%3D%25020%2502%2502admin%26O9D%3D%25020%2502%2502Tarjo
+_seq_=13
+_uo_=O6B
+

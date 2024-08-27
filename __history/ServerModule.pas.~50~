@@ -1,0 +1,98 @@
+unit ServerModule;
+
+interface
+
+uses
+  Classes, SysUtils, uniGUIServer, uniGUIMainModule, uniGUIApplication, uIdCustomHTTPServer,
+  uniGUITypes, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
+  ZAbstractConnection, ZConnection, ADODB;
+
+type
+  TUniServerModule = class(TUniGUIServerModule)
+    DataSource1: TDataSource;
+    DataSource2: TDataSource;
+    DataSource3: TDataSource;
+    ADOConnection1: TADOConnection;
+    ADOQuery1: TADOQuery;
+    ADOQuery2: TADOQuery;
+    ADOQuery3: TADOQuery;
+    procedure UniServerModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  protected
+    procedure FirstInit; override;
+  public
+    { Public declarations }
+  end;
+
+function UniServerModule: TUniServerModule;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  UniGUIVars;
+
+function UniServerModule: TUniServerModule;
+begin
+  Result := TUniServerModule(UniGUIServerInstance);
+end;
+
+procedure TUniServerModule.FirstInit;
+begin
+  InitServerModule(Self);
+end;
+
+procedure TUniServerModule.UniServerModuleCreate(Sender: TObject);
+begin
+  // Memeriksa apakah ADOConnection1 terhubung, jika tidak maka menghubungkannya
+  if not ADOConnection1.Connected then
+  begin
+    ADOConnection1.ConnectionString := 'Your_Connection_String_Here'; // Ganti dengan connection string yang sesuai
+    ADOConnection1.LoginPrompt := False; // Menonaktifkan prompt login jika tidak diperlukan
+    try
+      ADOConnection1.Open; // Membuka koneksi ADO
+    except
+      on E: Exception do
+      begin
+        // Menangani kesalahan koneksi
+        ShowMessage('Error connecting to the database: ' + E.Message);
+        Exit;
+      end;
+    end;
+  end;
+
+  // Menghubungkan dan mengeksekusi query pertama dengan ADOQuery1
+  ADOQuery1.Connection := ADOConnection1;
+  ADOQuery1.SQL.Clear;
+  ADOQuery1.SQL.Text := 'SELECT u.*, r.name FROM tx_user u JOIN tm_role r ON r.id = u.role_id';
+  try
+    ADOQuery1.Open;
+  except
+    on E: Exception do
+    begin
+      ShowMessage('Error executing the first query: ' + E.Message);
+      Exit;
+    end;
+  end;
+
+  // Menghubungkan dan mengeksekusi query kedua dengan ADOQuery2
+  ADOQuery2.Connection := ADOConnection1;
+  ADOQuery2.SQL.Clear;
+  ADOQuery2.SQL.Text := 'SELECT * FROM tm_employee';
+  try
+    ADOQuery2.Open;
+  except
+    on E: Exception do
+    begin
+      ShowMessage('Error executing the second query: ' + E.Message);
+      Exit;
+    end;
+  end;
+end;
+
+
+initialization
+  RegisterServerModuleClass(TUniServerModule);
+end.

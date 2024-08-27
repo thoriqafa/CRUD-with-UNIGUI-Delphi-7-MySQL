@@ -1,0 +1,59 @@
+object UniForm2: TUniForm2
+  Left = 0
+  Top = 0
+  ClientHeight = 325
+  ClientWidth = 326
+  Caption = 'UniForm2'
+  OldCreateOrder = False
+  MonitoredKeys.Keys = <>
+  OnCreate = UniFormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BtnSave: TUniButton
+    Left = 38
+    Top = 267
+    Width = 75
+    Height = 25
+    Caption = 'Save'
+    TabOrder = 0
+    OnClick = BtnSaveClick
+  end
+  object TxtUsername: TUniEdit
+    Left = 8
+    Top = 120
+    Width = 305
+    TabOrder = 1
+    FieldLabel = 'Username'
+  end
+  object TxtPassword: TUniEdit
+    Left = 8
+    Top = 160
+    Width = 305
+    TabOrder = 2
+    FieldLabel = 'Password'
+  end
+  object BtnExport: TUniButton
+    Left = 158
+    Top = 267
+    Width = 75
+    Height = 25
+    Caption = 'Export'
+    TabOrder = 3
+  end
+  object CBRole: TUniComboBox
+    Left = 8
+    Top = 208
+    Width = 305
+    TabOrder = 4
+    EmptyText = 'Choose Role'
+    FieldLabel = 'Role'
+    IconItems = <>
+  end
+  object TxtNama: TUniEdit
+    Left = 8
+    Top = 80
+    Width = 305
+    TabOrder = 5
+    FieldLabel = 'Name'
+  end
+end

@@ -1,0 +1,89 @@
+object UniForm1: TUniForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 454
+  ClientWidth = 825
+  Caption = 'UniForm1'
+  OnShow = UniForm1Create
+  OldCreateOrder = False
+  MonitoredKeys.Keys = <>
+  PixelsPerInch = 96
+  TextHeight = 13
+  object UniDBGrid1: TUniDBGrid
+    Left = 8
+    Top = 8
+    Width = 329
+    Height = 209
+    ClicksToEdit = 3
+    CellCursor = crHandPoint
+    DataSource = UniServerModule.DataSource3
+    ReadOnly = True
+    LoadMask.Message = 'Loading data...'
+    TabOrder = 0
+    OnCellClick = UniDBGridCellClick
+    Columns = <
+      item
+        FieldName = 'username'
+        Title.Caption = 'name'
+        Width = 274
+      end
+      item
+        FieldName = 'role_name'
+        Title.Caption = 'role_name'
+        Width = 274
+      end
+      item
+        FieldName = 'name'
+        Title.Caption = 'name'
+        Width = 274
+      end>
+  end
+  object BtnSave: TUniButton
+    Left = 360
+    Top = 195
+    Width = 75
+    Height = 25
+    Caption = 'Save'
+    TabOrder = 1
+    OnClick = BtnSaveClick
+  end
+  object TxtUsername: TUniEdit
+    Left = 360
+    Top = 48
+    Width = 305
+    TabOrder = 2
+    FieldLabel = 'Username'
+  end
+  object TxtPassword: TUniEdit
+    Left = 360
+    Top = 88
+    Width = 305
+    TabOrder = 3
+    FieldLabel = 'Password'
+  end
+  object BtnExport: TUniButton
+    Left = 480
+    Top = 195
+    Width = 75
+    Height = 25
+    Caption = 'Export'
+    TabOrder = 4
+    OnClick = BtnExportClick
+  end
+  object CBRole: TUniComboBox
+    Left = 360
+    Top = 136
+    Width = 305
+    TabOrder = 5
+    EmptyText = 'Choose Role'
+    FieldLabel = 'Role'
+    IconItems = <>
+  end
+  object TxtNama: TUniEdit
+    Left = 360
+    Top = 8
+    Width = 305
+    TabOrder = 6
+    FieldLabel = 'Name'
+  end
+end

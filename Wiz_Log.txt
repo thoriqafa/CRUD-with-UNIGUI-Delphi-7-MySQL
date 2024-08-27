@@ -1,0 +1,66 @@
+BDE/ADO Migration Wizard log
+
+Created at: 26/08/2024 16:13:02
+
+Initializing unit list
+
+Creating backup folder
+
+Allocating temporary folder
+
+Processing file: D:\download\aplikasi\selfdev\delphi\FrmCrtEmp.pas
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\FrmLogin.pas
+
+4 change(s)
+
+Processing file: D:\download\aplikasi\selfdev\delphi\ListEmp.pas
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\Main.pas
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\MainModule.pas
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\ServerModule.pas
+
+5 change(s)
+
+Processing file: D:\download\aplikasi\selfdev\delphi\FrmCrtEmp.DFM
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\FrmLogin.DFM
+
+1 change(s)
+
+Processing file: D:\download\aplikasi\selfdev\delphi\ListEmp.DFM
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\Main.DFM
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\MainModule.DFM
+
+No changes
+
+Processing file: D:\download\aplikasi\selfdev\delphi\ServerModule.DFM
+
+4 change(s)
+
+Replacing original files with changed versions
+
+Backup file: D:\download\aplikasi\selfdev\delphi\RBackup\RExpert.reu
+
+Removing temporary folder
+
+Replace procedure was performed sucessfully.
+
